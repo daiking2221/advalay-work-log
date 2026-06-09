@@ -6,9 +6,10 @@
       "ファイルを編集: settings.json",
       "GitHubリポジトリを作成",
       "GitHubへファイルをプッシュ",
-      "GitHub Pagesを設定"
+      "GitHub Pagesを設定",
+      "ファイルを編集: settings.json、project_jreast_station_guide.md"
     ],
-    "score": 3,
-    "cumulative": 3
+    "score": 4,
+    "cumulative": 4
   }
 ]
