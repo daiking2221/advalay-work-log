@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2026-06-09",
+    "tasks": [
+      "ファイルを新規作成: index.html、daily-summary.py、log-activity.py",
+      "ファイルを編集: settings.json",
+      "GitHubリポジトリを作成",
+      "GitHubへファイルをプッシュ",
+      "GitHub Pagesを設定"
+    ],
+    "score": 3,
+    "cumulative": 3
+  }
+]
