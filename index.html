@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>丸屋の頑張りログ | Advalay</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #7d8590;
+      --accent: #f5a623;
+      --blue: #58a6ff;
+      --green: #3fb950;
+      --red: #f85149;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+      padding: 24px 20px;
+      min-height: 100vh;
+    }
+    header { margin-bottom: 28px; }
+    header h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 4px; }
+    header p { color: var(--muted); font-size: 0.85rem; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 600px) {
+      .stats { grid-template-columns: repeat(4, 1fr); }
+    }
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .stat-label {
+      color: var(--muted);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .stat-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .stat-unit { font-size: 0.85rem; font-weight: 400; margin-left: 2px; }
+    .orange { color: var(--accent); }
+    .blue { color: var(--blue); }
+    .green { color: var(--green); }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+    canvas { max-height: 280px; }
+
+    .day-entry { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .day-entry:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .day-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .day-date { font-size: 0.875rem; font-weight: 600; }
+    .score-badge {
+      background: rgba(245,166,35,0.15);
+      color: var(--accent);
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .task-list { list-style: none; }
+    .task-list li {
+      padding: 3px 0 3px 16px;
+      position: relative;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: var(--text);
+    }
+    .task-list li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    .empty {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+    .fire-bar {
+      height: 6px;
+      background: linear-gradient(90deg, #f5a623, #ff6b35);
+      border-radius: 3px;
+      margin-bottom: 20px;
+      transition: width 1s ease;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 丸屋の頑張りログ</h1>
+    <p>Claude Codeで積み上げた業務記録</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-label">今日の頑張り</div>
+      <div class="stat-value orange" id="today-score">−</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">累計ポイント</div>
+      <div class="stat-value blue" id="total-score">0<span class="stat-unit">pt</span></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">連続稼働</div>
+      <div class="stat-value green" id="streak">0<span class="stat-unit">日</span></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">総記録日数</div>
+      <div class="stat-value" id="total-days">0<span class="stat-unit">日</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">頑張り推移（直近30日）</div>
+    <canvas id="chart"></canvas>
+  </div>
+
+  <div class="card">
+    <div class="card-title">業務記録</div>
+    <div id="log-list"><div class="empty">読み込み中...</div></div>
+  </div>
+
+  <script>
+    fetch('data/log.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        if (!data || data.length === 0) {
+          document.getElementById('log-list').innerHTML =
+            '<div class="empty">まだ記録がありません。<br>今日も頑張ろう！ 💪</div>';
+          return;
+        }
+
+        // 日付昇順ソート
+        data.sort((a, b) => a.date.localeCompare(b.date));
+
+        // --- Stats ---
+        const today = new Date().toISOString().slice(0, 10);
+        const todayEntry = data.find(e => e.date === today);
+        const totalScore = data[data.length - 1].cumulative || 0;
+
+        document.getElementById('today-score').innerHTML =
+          todayEntry ? `${todayEntry.score}<span class="stat-unit">pt</span>` : '−';
+        document.getElementById('total-score').innerHTML =
+          `${totalScore}<span class="stat-unit">pt</span>`;
+        document.getElementById('total-days').innerHTML =
+          `${data.length}<span class="stat-unit">日</span>`;
+
+        // 連続稼働日数
+        let streak = 0;
+        const check = new Date();
+        for (let i = 0; i < 365; i++) {
+          const d = check.toISOString().slice(0, 10);
+          if (data.find(e => e.date === d)) {
+            streak++;
+            check.setDate(check.getDate() - 1);
+          } else if (i === 0) {
+            // 今日の記録がなくても昨日から数える
+            check.setDate(check.getDate() - 1);
+          } else {
+            break;
+          }
+        }
+        document.getElementById('streak').innerHTML =
+          `${streak}<span class="stat-unit">日</span>`;
+
+        // --- Chart ---
+        const recent = data.slice(-30);
+        const labels = recent.map(e => {
+          const [, m, d] = e.date.split('-');
+          return `${parseInt(m)}/${parseInt(d)}`;
+        });
+
+        new Chart(document.getElementById('chart'), {
+          data: {
+            labels,
+            datasets: [
+              {
+                type: 'bar',
+                label: '日別スコア',
+                data: recent.map(e => e.score),
+                backgroundColor: 'rgba(245,166,35,0.45)',
+                borderColor: 'rgba(245,166,35,0.9)',
+                borderWidth: 1,
+                borderRadius: 4,
+                yAxisID: 'y'
+              },
+              {
+                type: 'line',
+                label: '累計ポイント',
+                data: recent.map(e => e.cumulative),
+                borderColor: '#58a6ff',
+                backgroundColor: 'rgba(88,166,255,0.08)',
+                borderWidth: 2,
+                pointRadius: 2,
+                pointHoverRadius: 5,
+                fill: true,
+                tension: 0.3,
+                yAxisID: 'y2'
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            interaction: { mode: 'index' },
+            plugins: {
+              legend: {
+                labels: { color: '#7d8590', font: { size: 11 } }
+              }
+            },
+            scales: {
+              x: {
+                ticks: { color: '#7d8590', font: { size: 10 } },
+                grid: { color: '#21262d' }
+              },
+              y: {
+                position: 'left',
+                min: 0,
+                max: 10,
+                ticks: { color: '#f5a623', stepSize: 2, font: { size: 10 } },
+                grid: { color: '#21262d' },
+                title: { display: true, text: '日別', color: '#7d8590', font: { size: 10 } }
+              },
+              y2: {
+                position: 'right',
+                min: 0,
+                ticks: { color: '#58a6ff', font: { size: 10 } },
+                grid: { display: false },
+                title: { display: true, text: '累計', color: '#7d8590', font: { size: 10 } }
+              }
+            }
+          }
+        });
+
+        // --- Log list ---
+        const html = data.slice().reverse().slice(0, 20).map(entry => {
+          const [y, m, d] = entry.date.split('-');
+          const weekdays = ['日','月','火','水','木','金','土'];
+          const wd = weekdays[new Date(entry.date).getDay()];
+          return `
+            <div class="day-entry">
+              <div class="day-header">
+                <span class="day-date">${y}/${parseInt(m)}/${parseInt(d)}（${wd}）</span>
+                <span class="score-badge">${entry.score}pt</span>
+              </div>
+              <ul class="task-list">
+                ${entry.tasks.map(t => `<li>${t}</li>`).join('')}
+              </ul>
+            </div>`;
+        }).join('');
+
+        document.getElementById('log-list').innerHTML = html;
+      })
+      .catch(() => {
+        document.getElementById('log-list').innerHTML =
+          '<div class="empty">データを読み込めませんでした</div>';
+      });
+  </script>
+</body>
+</html>
