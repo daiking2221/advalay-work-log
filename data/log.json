@@ -20,9 +20,11 @@
     "date": "2026-06-10",
     "tasks": [
       "Claude Codeで各種業務を実施",
-      "ファイルを編集: SKILL.md"
+      "ファイルを編集: SKILL.md",
+      "ファイルを新規作成: 2026-06-09_打合せ議事録（Advalay・ソニーPCL・XGridS）.md、make_woven_minutes.py",
+      "スクリプト実行: make_woven_minutes.py"
     ],
-    "score": 2,
-    "cumulative": 12
+    "score": 3,
+    "cumulative": 13
   }
 ]
