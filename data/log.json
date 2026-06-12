@@ -37,5 +37,14 @@
     ],
     "score": 3,
     "cumulative": 17
+  },
+  {
+    "date": "2026-06-12",
+    "tasks": [
+      "スクリプト実行: pdf:",
+      "スクリプト実行: 390_manual_b_te"
+    ],
+    "score": 1,
+    "cumulative": 18
   }
 ]
