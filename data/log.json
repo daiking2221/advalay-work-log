@@ -44,9 +44,11 @@
       "スクリプト実行: pdf:",
       "スクリプト実行: 390_manual_b_te",
       "スクリプト実行: de",
-      "スクリプト実行: 260527_HeralbonyArtPriz"
+      "スクリプト実行: 260527_HeralbonyArtPriz",
+      "ファイルを新規作成: README.md、specs.md、pricing.mdほか3件",
+      "GitHubへファイルをプッシュ"
     ],
-    "score": 4,
-    "cumulative": 21
+    "score": 7,
+    "cumulative": 24
   }
 ]
