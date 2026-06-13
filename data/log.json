@@ -51,5 +51,14 @@
     ],
     "score": 8,
     "cumulative": 25
+  },
+  {
+    "date": "2026-06-13",
+    "tasks": [
+      "ファイルを新規作成: advalay-push-check.sh",
+      "ファイルを編集: settings.json"
+    ],
+    "score": 2,
+    "cumulative": 27
   }
 ]
