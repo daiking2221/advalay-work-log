@@ -56,7 +56,8 @@
     "date": "2026-06-13",
     "tasks": [
       "ファイルを新規作成: advalay-push-check.sh",
-      "ファイルを編集: settings.json"
+      "ファイルを編集: settings.json",
+      "ファイルを編集: settings.json、.zshrc"
     ],
     "score": 4,
     "cumulative": 29
