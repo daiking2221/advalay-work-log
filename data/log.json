@@ -74,9 +74,10 @@
     "date": "2026-06-15",
     "tasks": [
       "Claude Codeで各種業務を実施",
-      "ファイルを新規作成: card.md、README.md"
+      "ファイルを新規作成: card.md、README.md",
+      "ファイルを新規作成: card.md、README.md、matterport-vs-xgrids.md"
     ],
-    "score": 3,
-    "cumulative": 35
+    "score": 5,
+    "cumulative": 37
   }
 ]
