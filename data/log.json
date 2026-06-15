@@ -80,9 +80,12 @@
       "スクリプト実行: ",
       "スクリプト実行: da",
       "スクリプト実行: imp",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: card.md、README.md、matterport-vs-xgrids.mdほか1件",
+      "スクリプト実行: print(dir(markitdown))\"",
+      "スクリプト実行: pr"
     ],
-    "score": 8,
-    "cumulative": 40
+    "score": 9,
+    "cumulative": 41
   }
 ]
