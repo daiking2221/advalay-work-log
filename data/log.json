@@ -90,5 +90,15 @@
     ],
     "score": 10,
     "cumulative": 42
+  },
+  {
+    "date": "2026-06-17",
+    "tasks": [
+      "ファイルを編集: pricing.md、partners.md",
+      "スクリプト実行: for",
+      "GitHubへファイルをプッシュ"
+    ],
+    "score": 2,
+    "cumulative": 44
   }
 ]
