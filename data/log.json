@@ -107,9 +107,13 @@
       "Claude Codeで各種業務を実施",
       "GitHubへファイルをプッシュ",
       "ファイルを新規作成: card.md",
-      "スクリプト実行: pdf:"
+      "スクリプト実行: pdf:",
+      "スクリプト実行: CalT",
+      "スクリプト実行: -80",
+      "スクリプト実行: m.convert",
+      "スクリプト実行: "
     ],
-    "score": 7,
-    "cumulative": 51
+    "score": 9,
+    "cumulative": 53
   }
 ]
