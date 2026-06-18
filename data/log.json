@@ -104,7 +104,8 @@
   {
     "date": "2026-06-18",
     "tasks": [
-      "Claude Codeで各種業務を実施"
+      "Claude Codeで各種業務を実施",
+      "GitHubへファイルをプッシュ"
     ],
     "score": 1,
     "cumulative": 45
