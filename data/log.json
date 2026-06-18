@@ -105,9 +105,10 @@
     "date": "2026-06-18",
     "tasks": [
       "Claude Codeで各種業務を実施",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: card.md"
     ],
-    "score": 1,
-    "cumulative": 45
+    "score": 3,
+    "cumulative": 47
   }
 ]
