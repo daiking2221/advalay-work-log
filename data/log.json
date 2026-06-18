@@ -106,9 +106,10 @@
     "tasks": [
       "Claude Codeで各種業務を実施",
       "GitHubへファイルをプッシュ",
-      "ファイルを新規作成: card.md"
+      "ファイルを新規作成: card.md",
+      "スクリプト実行: pdf:"
     ],
-    "score": 3,
-    "cumulative": 47
+    "score": 4,
+    "cumulative": 48
   }
 ]
