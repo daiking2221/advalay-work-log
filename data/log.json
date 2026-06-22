@@ -136,9 +136,13 @@
   {
     "date": "2026-06-22",
     "tasks": [
-      "Claude Codeで各種業務を実施"
+      "Claude Codeで各種業務を実施",
+      "ファイルを新規作成: build.js",
+      "スクリプト実行: -60",
+      "スクリプト実行: ",
+      "スクリプト実行: slide"
     ],
-    "score": 1,
-    "cumulative": 63
+    "score": 5,
+    "cumulative": 67
   }
 ]
