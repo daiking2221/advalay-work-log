@@ -142,9 +142,11 @@
       "スクリプト実行: ",
       "スクリプト実行: slide",
       "ファイルを新規作成: build.js、2026-06-22-kunitachi-festival.md、card.md",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: build.js、2026-06-22-kunitachi-festival.md、card.mdほか1件",
+      "スクリプト実行: create_meeting_pdf.py"
     ],
-    "score": 7,
-    "cumulative": 69
+    "score": 8,
+    "cumulative": 70
   }
 ]
