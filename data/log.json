@@ -161,9 +161,12 @@
       "スクリプト実行: DADE9B1D-1783-4CDA-9BDB-C505CC8B6",
       "スクリプト実行: Downloa",
       "スクリプト実行: 'バンジー",
-      "スクリプト実行: open"
+      "スクリプト実行: open",
+      "スクリプト実行: ヒラギノ角ゴシック",
+      "スクリプト実行: ttc[0",
+      "スクリプト実行: subprocess.run(['python3',"
     ],
-    "score": 3,
-    "cumulative": 75
+    "score": 5,
+    "cumulative": 77
   }
 ]
