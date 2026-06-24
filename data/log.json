@@ -174,9 +174,13 @@
     "tasks": [
       "ファイルを新規作成: meeting-assist.py、minutes.py、requirements.txt",
       "ファイルを新規作成: meeting-assist.py、minutes.py、requirements.txtほか2件",
-      "ファイルを新規作成: meeting-assist.py、minutes.py、requirements.txtほか4件"
+      "ファイルを新規作成: meeting-assist.py、minutes.py、requirements.txtほか4件",
+      "スクリプト実行: 2>&1",
+      "スクリプト実行: fon",
+      "スクリプト実行: \"Foun",
+      "スクリプト実行: png_path.replace"
     ],
-    "score": 4,
-    "cumulative": 81
+    "score": 6,
+    "cumulative": 83
   }
 ]
