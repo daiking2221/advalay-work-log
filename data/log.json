@@ -188,9 +188,11 @@
     "tasks": [
       "ファイルを新規作成: 2026-06-24-xgrids-activelitech.md",
       "GitHubへファイルをプッシュ",
-      "ファイルを新規作成: 2026-06-24-xgrids-activelitech.md、2026-06-24_第3回打合せ_システム詳細確認.md"
+      "ファイルを新規作成: 2026-06-24-xgrids-activelitech.md、2026-06-24_第3回打合せ_システム詳細確認.md",
+      "ファイルを新規作成: 2026-06-24-xgrids-activelitech.md、2026-06-24_第3回打合せ_システム詳細確認.md、2026-06-25_ウーブンシティ_XGridS技術打ち合わせ.mdほか1件",
+      "スクリプト実行: gen_meeting_p"
     ],
-    "score": 4,
-    "cumulative": 89
+    "score": 6,
+    "cumulative": 91
   }
 ]
