@@ -194,5 +194,13 @@
     ],
     "score": 7,
     "cumulative": 92
+  },
+  {
+    "date": "2026-06-26",
+    "tasks": [
+      "GitHubへファイルをプッシュ"
+    ],
+    "score": 1,
+    "cumulative": 93
   }
 ]
