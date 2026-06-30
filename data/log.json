@@ -207,9 +207,10 @@
     "date": "2026-06-30",
     "tasks": [
       "ファイルを新規作成: feedback_bni-genba-dx.md",
-      "ファイルを編集: MEMORY.md"
+      "ファイルを編集: MEMORY.md",
+      "ファイルを新規作成: feedback_bni-genba-dx.md、feedback_bni-ai-system-focus.md"
     ],
-    "score": 1,
-    "cumulative": 94
+    "score": 2,
+    "cumulative": 95
   }
 ]
