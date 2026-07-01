@@ -213,5 +213,13 @@
     ],
     "score": 4,
     "cumulative": 97
+  },
+  {
+    "date": "2026-07-01",
+    "tasks": [
+      "Claude Codeで各種業務を実施"
+    ],
+    "score": 1,
+    "cumulative": 98
   }
 ]
