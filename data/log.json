@@ -240,7 +240,8 @@
       "ファイルを新規作成: check_meet.scpt",
       "ファイルを編集: _template.md、card.md、meeting-assist.py",
       "スクリプト実行: python",
-      "スクリプト実行: meeting-assist.py'"
+      "スクリプト実行: meeting-assist.py'",
+      "スクリプト実行: --zoom"
     ],
     "score": 7,
     "cumulative": 113
