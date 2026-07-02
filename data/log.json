@@ -236,9 +236,13 @@
     "date": "2026-07-02",
     "tasks": [
       "ファイルを編集: _template.md、card.md",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: check_meet.scpt",
+      "ファイルを編集: _template.md、card.md、meeting-assist.py",
+      "スクリプト実行: python",
+      "スクリプト実行: meeting-assist.py'"
     ],
-    "score": 4,
-    "cumulative": 110
+    "score": 7,
+    "cumulative": 113
   }
 ]
