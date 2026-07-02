@@ -241,9 +241,10 @@
       "ファイルを編集: _template.md、card.md、meeting-assist.py",
       "スクリプト実行: python",
       "スクリプト実行: meeting-assist.py'",
-      "スクリプト実行: --zoom"
+      "スクリプト実行: --zoom",
+      "スクリプト実行: dtype"
     ],
-    "score": 7,
-    "cumulative": 113
+    "score": 8,
+    "cumulative": 114
   }
 ]
