@@ -256,9 +256,11 @@
       "スクリプト実行: print(fpdf.__version__)\"",
       "スクリプト実行: make_bn",
       "スクリプト実行: convert_from_path('Adval",
-      "スクリプト実行: Advalay_システ"
+      "スクリプト実行: Advalay_システ",
+      "ファイルを新規作成: make_bni_pdf.py、bni_visual.html",
+      "スクリプト実行: chr"
     ],
-    "score": 6,
-    "cumulative": 120
+    "score": 8,
+    "cumulative": 122
   }
 ]
