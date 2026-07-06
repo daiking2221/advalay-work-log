@@ -278,9 +278,12 @@
     "tasks": [
       "スクリプト実行: data",
       "ファイルを編集: matterport.md",
-      "スクリプト実行: openpyxl.load_workbook('株式会社Advalay御中_VR導入費_sim.xls"
+      "スクリプト実行: openpyxl.load_workbook('株式会社Advalay御中_VR導入費_sim.xls",
+      "スクリプト実行: Pattern",
+      "スクリプト実行: openpyxl.load_workbook('TGN_CG_Production_RFQ.xlsx'",
+      "スクリプト実行: openpy"
     ],
-    "score": 5,
-    "cumulative": 129
+    "score": 7,
+    "cumulative": 131
   }
 ]
