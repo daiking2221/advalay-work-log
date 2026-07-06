@@ -276,9 +276,10 @@
   {
     "date": "2026-07-06",
     "tasks": [
-      "スクリプト実行: data"
+      "スクリプト実行: data",
+      "ファイルを編集: matterport.md"
     ],
-    "score": 1,
-    "cumulative": 125
+    "score": 4,
+    "cumulative": 128
   }
 ]
