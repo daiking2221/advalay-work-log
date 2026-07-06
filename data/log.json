@@ -282,9 +282,11 @@
       "スクリプト実行: Pattern",
       "スクリプト実行: openpyxl.load_workbook('TGN_CG_Production_RFQ.xlsx'",
       "スクリプト実行: openpy",
-      "ファイルを新規作成: tgn-cg-rfq-preview.html"
+      "ファイルを新規作成: tgn-cg-rfq-preview.html",
+      "ファイルを新規作成: tgn-cg-rfq-preview.html、tgn-cg-cost-breakdown.html",
+      "スクリプト実行: openpyxl.load_workbook('株式会社Advalay御中_VR導入費_sim"
     ],
-    "score": 7,
-    "cumulative": 131
+    "score": 8,
+    "cumulative": 132
   }
 ]
