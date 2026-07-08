@@ -308,5 +308,14 @@
     ],
     "score": 6,
     "cumulative": 140
+  },
+  {
+    "date": "2026-07-08",
+    "tasks": [
+      "ファイルを新規作成: card.md",
+      "GitHubへファイルをプッシュ"
+    ],
+    "score": 3,
+    "cumulative": 143
   }
 ]
