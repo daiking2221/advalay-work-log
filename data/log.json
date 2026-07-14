@@ -340,9 +340,10 @@
   {
     "date": "2026-07-14",
     "tasks": [
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: card.md、2026-07-14_初回打合せ_請求管理システム.md"
     ],
-    "score": 2,
-    "cumulative": 155
+    "score": 5,
+    "cumulative": 158
   }
 ]
