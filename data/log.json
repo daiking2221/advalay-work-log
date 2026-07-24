@@ -398,9 +398,10 @@
       "ファイルを編集: card.md",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: f",
-      "スクリプト実行: i"
+      "スクリプト実行: i",
+      "ファイルを編集: card.md、README.md"
     ],
-    "score": 3,
-    "cumulative": 188
+    "score": 5,
+    "cumulative": 190
   }
 ]
