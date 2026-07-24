@@ -396,9 +396,11 @@
     "date": "2026-07-24",
     "tasks": [
       "ファイルを編集: card.md",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "スクリプト実行: f",
+      "スクリプト実行: i"
     ],
-    "score": 1,
-    "cumulative": 186
+    "score": 3,
+    "cumulative": 188
   }
 ]
