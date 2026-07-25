@@ -409,9 +409,12 @@
     "tasks": [
       "ファイルを新規作成: 2026-07-24_7_24_2026-Meeting(Audio).md",
       "ファイルを編集: README.md",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: 2026-07-24_7_24_2026-Meeting(Audio).md、gen_calta_summary_pdf.py",
+      "スクリプト実行: gen_cal",
+      "スクリプト実行: fr"
     ],
-    "score": 4,
-    "cumulative": 194
+    "score": 6,
+    "cumulative": 196
   }
 ]
