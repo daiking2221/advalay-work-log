@@ -436,5 +436,14 @@
     ],
     "score": 4,
     "cumulative": 204
+  },
+  {
+    "date": "2026-07-27",
+    "tasks": [
+      "スクリプト実行: \"markitdown[pptx]\"",
+      "スクリプト実行: fr"
+    ],
+    "score": 1,
+    "cumulative": 205
   }
 ]
