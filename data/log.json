@@ -475,9 +475,11 @@
       "スクリプト実行: impo",
       "スクリプト実行: transla",
       "スクリプト実行: maruyadai",
-      "スクリプト実行: subprocess.run(['pdftotext"
+      "スクリプト実行: subprocess.run(['pdftotext",
+      "ファイルを新規作成: translate_floorplan.py、build_pdf.py",
+      "スクリプト実行: ta"
     ],
-    "score": 8,
-    "cumulative": 224
+    "score": 10,
+    "cumulative": 226
   }
 ]
