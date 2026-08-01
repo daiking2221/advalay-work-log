@@ -506,9 +506,10 @@
       "ファイルを新規作成: make_okaya_report.py",
       "スクリプト実行: i",
       "スクリプト実行: f",
-      "スクリプト実行: make_ok"
+      "スクリプト実行: make_ok",
+      "スクリプト実行: data_only=Fals"
     ],
-    "score": 3,
-    "cumulative": 230
+    "score": 4,
+    "cumulative": 231
   }
 ]
