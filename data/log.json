@@ -524,9 +524,10 @@
       "GitHubへファイルをプッシュ",
       "ファイルを新規作成: concept.md、reference_onevenia-keyholder-vending.md、project_onevenia-active-cases.mdほか2件",
       "スクリプト実行: make_invoice_",
-      "ファイルを新規作成: concept.md、reference_onevenia-keyholder-vending.md、project_onevenia-active-cases.mdほか3件"
+      "ファイルを新規作成: concept.md、reference_onevenia-keyholder-vending.md、project_onevenia-active-cases.mdほか3件",
+      "スクリプト実行: backup-setup.sh',"
     ],
-    "score": 9,
-    "cumulative": 241
+    "score": 10,
+    "cumulative": 242
   }
 ]
