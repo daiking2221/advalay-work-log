@@ -575,7 +575,9 @@
       "ファイルを編集: card.md",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: print(datetime.now(js",
-      "ファイルを新規作成: 納品要件_現行仕様_2026-08-07.md"
+      "ファイルを新規作成: 納品要件_現行仕様_2026-08-07.md",
+      "ファイルを編集: card.md、adi-notified-deals.json",
+      "スクリプト実行: Us"
     ],
     "score": 3,
     "cumulative": 264
