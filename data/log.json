@@ -593,9 +593,10 @@
       "ファイルを新規作成: README.md、2026-08-08_sonypcl-kickoff.md、make_sonypcl_doc.py",
       "スクリプト実行: 2>&1",
       "スクリプト実行: make_sonypcl",
-      "スクリプト実行: print('pages:"
+      "スクリプト実行: print('pages:",
+      "スクリプト実行: doc:"
     ],
-    "score": 5,
-    "cumulative": 271
+    "score": 9,
+    "cumulative": 275
   }
 ]
