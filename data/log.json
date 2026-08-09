@@ -606,9 +606,11 @@
       "GitHubへファイルをプッシュ",
       "スクリプト実行: ws",
       "ファイルを新規作成: mtg-2026-08-09-notes.md",
-      "ファイルを新規作成: mtg-2026-08-09-notes.md、generate.js"
+      "ファイルを新規作成: mtg-2026-08-09-notes.md、generate.js",
+      "ファイルを新規作成: mtg-2026-08-09-notes.md、generate.js、make_sonypcl_doc.py",
+      "スクリプト実行: make_sonypcl"
     ],
-    "score": 9,
-    "cumulative": 284
+    "score": 10,
+    "cumulative": 285
   }
 ]
