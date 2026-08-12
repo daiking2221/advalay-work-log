@@ -612,5 +612,13 @@
     ],
     "score": 10,
     "cumulative": 285
+  },
+  {
+    "date": "2026-08-12",
+    "tasks": [
+      "スクリプト実行: data"
+    ],
+    "score": 1,
+    "cumulative": 286
   }
 ]
