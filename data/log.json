@@ -663,7 +663,10 @@
       "スクリプト実行: print(f'スライド数:",
       "スクリプト実行: unpack.",
       "ファイルを編集: MEMORY.md、notesSlide1.xml",
-      "スクリプト実行: \""
+      "スクリプト実行: \"",
+      "ファイルを編集: MEMORY.md、notesSlide1.xml、notesSlide2.xmlほか7件",
+      "スクリプト実行: Use",
+      "スクリプト実行: --version"
     ],
     "score": 10,
     "cumulative": 323
