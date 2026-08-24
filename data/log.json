@@ -744,5 +744,14 @@
     ],
     "score": 10,
     "cumulative": 358
+  },
+  {
+    "date": "2026-08-25",
+    "tasks": [
+      "ファイルを編集: actions.ts、TeamGrid.tsx、globals.css",
+      "GitHubへファイルをプッシュ"
+    ],
+    "score": 3,
+    "cumulative": 361
   }
 ]
