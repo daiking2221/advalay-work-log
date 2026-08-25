@@ -773,5 +773,16 @@
     ],
     "score": 10,
     "cumulative": 368
+  },
+  {
+    "date": "2026-08-26",
+    "tasks": [
+      "ファイルを編集: sales-onepager.html、sales-onepager.md、card.mdほか1件",
+      "スクリプト実行: 8dee008e-1836-4a13-a946-e75",
+      "スクリプト実行: ",
+      "GitHubへファイルをプッシュ"
+    ],
+    "score": 7,
+    "cumulative": 375
   }
 ]
