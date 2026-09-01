@@ -835,9 +835,12 @@
       "ファイルを新規作成: 2026-09-01_ウィークリープレゼン40秒.md、okaya_report.html",
       "スクリプト実行: Con",
       "スクリプト実行: f",
-      "ファイルを新規作成: 2026-09-01_ウィークリープレゼン40秒.md、okaya_report.html、member-watanabe.md"
+      "ファイルを新規作成: 2026-09-01_ウィークリープレゼン40秒.md、okaya_report.html、member-watanabe.md",
+      "ファイルを新規作成: 2026-09-01_ウィークリープレゼン40秒.md、okaya_report.html、member-watanabe.mdほか2件",
+      "スクリプト実行: make_pd",
+      "スクリプト実行: exp"
     ],
-    "score": 7,
-    "cumulative": 396
+    "score": 10,
+    "cumulative": 399
   }
 ]
