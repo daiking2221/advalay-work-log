@@ -854,7 +854,8 @@
       "スクリプト実行: build_b",
       "ファイルを新規作成: build_bod_pdf.py、build_assign_xlsx.py",
       "スクリプト実行: 2>&1",
-      "スクリプト実行: build_a"
+      "スクリプト実行: build_a",
+      "ファイルを新規作成: build_bod_pdf.py、build_assign_xlsx.py、build_visitor_guide.py"
     ],
     "score": 10,
     "cumulative": 409
