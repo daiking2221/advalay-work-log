@@ -851,7 +851,10 @@
       "ファイルを新規作成: build_bod_pdf.py",
       "スクリプト実行: weasyprint.__ve",
       "スクリプト実行: 2",
-      "スクリプト実行: build_b"
+      "スクリプト実行: build_b",
+      "ファイルを新規作成: build_bod_pdf.py、build_assign_xlsx.py",
+      "スクリプト実行: 2>&1",
+      "スクリプト実行: build_a"
     ],
     "score": 10,
     "cumulative": 409
