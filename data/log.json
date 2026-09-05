@@ -868,9 +868,11 @@
       "スクリプト実行: 9月8日BOD全体席割_会話ガイド全10卓最大6名.xlsx',",
       "スクリプト実行: im",
       "スクリプト実行: build_s",
-      "スクリプト実行: <<'EO"
+      "スクリプト実行: <<'EO",
+      "ファイルを新規作成: build_seating_chart.py、build_joetsu.js、build_suntory.jsほか1件",
+      "スクリプト実行: offi"
     ],
-    "score": 5,
-    "cumulative": 414
+    "score": 10,
+    "cumulative": 419
   }
 ]
