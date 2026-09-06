@@ -889,7 +889,7 @@
       "GitHubへファイルをプッシュ",
       "スクリプト実行: openpyxl.load_workbook('クロサカ紹介候補リスト_2026-09-05.xlsx"
     ],
-    "score": 6,
-    "cumulative": 425
+    "score": 7,
+    "cumulative": 426
   }
 ]
