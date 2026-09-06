@@ -887,7 +887,8 @@
     "tasks": [
       "ファイルを編集: glossary.md",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: openpyxl.load_workbook('クロサカ紹介候補リスト_2026-09-05.xlsx"
+      "スクリプト実行: openpyxl.load_workbook('クロサカ紹介候補リスト_2026-09-05.xlsx",
+      "ファイルを編集: glossary.md、feedback_it-passport-glossary-workflow.md"
     ],
     "score": 10,
     "cumulative": 429
