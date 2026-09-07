@@ -904,5 +904,20 @@
     ],
     "score": 4,
     "cumulative": 433
+  },
+  {
+    "date": "2026-09-08",
+    "tasks": [
+      "スクリプト実行: PdfReader('260722_㈱Advalay御中_注文書_タマポリ群馬工場３",
+      "スクリプト実行: convert_from_path('260722_㈱",
+      "スクリプト実行: fr",
+      "スクリプト実行: pdfplumber.open('260722_㈱Advalay御中_注文書_タマポリ群馬工場３Dコン",
+      "スクリプト実行: re",
+      "スクリプト実行: =",
+      "スクリプト実行: pdfmetrics.registerFo",
+      "スクリプト実行: py"
+    ],
+    "score": 3,
+    "cumulative": 436
   }
 ]
