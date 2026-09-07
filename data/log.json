@@ -915,9 +915,10 @@
       "スクリプト実行: re",
       "スクリプト実行: =",
       "スクリプト実行: pdfmetrics.registerFo",
-      "スクリプト実行: py"
+      "スクリプト実行: py",
+      "ファイルを編集: glossary.md"
     ],
-    "score": 4,
-    "cumulative": 437
+    "score": 5,
+    "cumulative": 438
   }
 ]
