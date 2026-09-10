@@ -941,9 +941,13 @@
       "ファイルを編集: card.md、MEMORY.md",
       "スクリプト実行: pdfplumber.open('260721_注文書・請書_タマポリ群馬工場（Advalay）.",
       "スクリプト実行: =",
-      "ファイルを新規作成: reference_advalay-digital-stamp.md、project_nohara-tamapoly-gunma.md、reply_draft.mdほか1件"
+      "ファイルを新規作成: reference_advalay-digital-stamp.md、project_nohara-tamapoly-gunma.md、reply_draft.mdほか1件",
+      "ファイルを新規作成: reference_advalay-digital-stamp.md、project_nohara-tamapoly-gunma.md、reply_draft.mdほか2件",
+      "スクリプト実行: fr",
+      "スクリプト実行: im",
+      "スクリプト実行: advalay-digital-stamp.png')"
     ],
-    "score": 8,
-    "cumulative": 453
+    "score": 10,
+    "cumulative": 455
   }
 ]
