@@ -971,9 +971,11 @@
       "ファイルを編集: glossary.md、SKILL.md",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: Downloa",
-      "スクリプト実行: ビジネス用語メモ帳.xl"
+      "スクリプト実行: ビジネス用語メモ帳.xl",
+      "ファイルを新規作成: feedback_business-glossary-auto-add.md",
+      "ファイルを編集: glossary.md、SKILL.md、MEMORY.md"
     ],
-    "score": 6,
-    "cumulative": 469
+    "score": 7,
+    "cumulative": 470
   }
 ]
