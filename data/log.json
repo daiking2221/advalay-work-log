@@ -970,7 +970,8 @@
     "tasks": [
       "ファイルを編集: glossary.md、SKILL.md",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: Downloa"
+      "スクリプト実行: Downloa",
+      "スクリプト実行: ビジネス用語メモ帳.xl"
     ],
     "score": 6,
     "cumulative": 469
