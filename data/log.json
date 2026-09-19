@@ -1071,7 +1071,8 @@
       "スクリプト実行: mark",
       "スクリプト実行: print(markitdown.__file__)",
       "スクリプト実行: -5",
-      "スクリプト実行: 'EOF"
+      "スクリプト実行: 'EOF",
+      "スクリプト実行: python3"
     ],
     "score": 10,
     "cumulative": 512
