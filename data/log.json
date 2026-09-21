@@ -1088,9 +1088,11 @@
       "ファイルを編集: glossary.md、SKILL.md",
       "スクリプト実行: arial",
       "スクリプト実行: build_glossar",
-      "スクリプト実行: len"
+      "スクリプト実行: len",
+      "スクリプト実行: T",
+      "スクリプト実行: 2"
     ],
-    "score": 6,
-    "cumulative": 518
+    "score": 10,
+    "cumulative": 522
   }
 ]
