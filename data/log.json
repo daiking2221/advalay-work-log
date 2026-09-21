@@ -1090,7 +1090,8 @@
       "スクリプト実行: build_glossar",
       "スクリプト実行: len",
       "スクリプト実行: T",
-      "スクリプト実行: 2"
+      "スクリプト実行: 2",
+      "ファイルを新規作成: build_glossary_pdf.py、build_weakpoints_pdf.py"
     ],
     "score": 10,
     "cumulative": 522
