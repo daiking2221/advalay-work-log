@@ -1102,9 +1102,11 @@
       "ファイルを編集: glossary.md",
       "GitHubへファイルをプッシュ",
       "ファイルを編集: glossary.md、build_glossary_pdf.py",
-      "スクリプト実行: build_glossary_pdf.py"
+      "スクリプト実行: build_glossary_pdf.py",
+      "スクリプト実行: encoding=\"utf-",
+      "スクリプト実行: print('p"
     ],
-    "score": 4,
-    "cumulative": 526
+    "score": 7,
+    "cumulative": 529
   }
 ]
