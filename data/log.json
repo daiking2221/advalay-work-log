@@ -1106,7 +1106,10 @@
       "スクリプト実行: encoding=\"utf-",
       "スクリプト実行: print('p",
       "ファイルを新規作成: gen_agenda.py",
-      "スクリプト実行: gen_age"
+      "スクリプト実行: gen_age",
+      "ファイルを新規作成: gen_agenda.py、gen.js",
+      "ファイルを編集: glossary.md、build_glossary_pdf.py、card.md",
+      "スクリプト実行: p"
     ],
     "score": 10,
     "cumulative": 532
