@@ -1129,9 +1129,12 @@
       "ファイルを編集: pricing.md",
       "GitHubへファイルをプッシュ",
       "ファイルを新規作成: training-materials.md",
-      "ファイルを編集: pricing.md、README.md"
+      "ファイルを編集: pricing.md、README.md",
+      "ファイルを新規作成: training-materials.md、make_pdf.py",
+      "スクリプト実行: print(reportlab.Version)\"",
+      "スクリプト実行: make_pd"
     ],
-    "score": 4,
-    "cumulative": 536
+    "score": 7,
+    "cumulative": 539
   }
 ]
