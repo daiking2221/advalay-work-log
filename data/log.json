@@ -1127,9 +1127,11 @@
     "date": "2026-09-24",
     "tasks": [
       "ファイルを編集: pricing.md",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "ファイルを新規作成: training-materials.md",
+      "ファイルを編集: pricing.md、README.md"
     ],
-    "score": 3,
-    "cumulative": 535
+    "score": 4,
+    "cumulative": 536
   }
 ]
