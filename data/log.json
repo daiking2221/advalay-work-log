@@ -1132,9 +1132,10 @@
       "ファイルを編集: pricing.md、README.md",
       "ファイルを新規作成: training-materials.md、make_pdf.py",
       "スクリプト実行: print(reportlab.Version)\"",
-      "スクリプト実行: make_pd"
+      "スクリプト実行: make_pd",
+      "ファイルを編集: pricing.md、README.md、card.md"
     ],
-    "score": 7,
-    "cumulative": 539
+    "score": 9,
+    "cumulative": 541
   }
 ]
