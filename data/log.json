@@ -1238,7 +1238,8 @@
       "スクリプト実行: i=s.index('RAIDの種類と実効容",
       "スクリプト実行: s=open(p,encoding='utf-8').",
       "スクリプト実行: t=subprocess.run(['pdftotext','-layout','glossary.pdf'",
-      "スクリプト実行: 要チェ"
+      "スクリプト実行: 要チェ",
+      "スクリプト実行: d[0].get_text('dict'"
     ],
     "score": 10,
     "cumulative": 604
