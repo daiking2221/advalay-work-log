@@ -1323,9 +1323,10 @@
       "スクリプト実行: 2>&1|hea",
       "スクリプト実行: d=fitz.open(\"システム開発業務委託契約書_ニュートン.",
       "スクリプト実行: ge",
-      "スクリプト実行: -Users-maruyadaiki"
+      "スクリプト実行: -Users-maruyadaiki",
+      "ファイルを編集: project_it-passport-exam.md"
     ],
-    "score": 9,
-    "cumulative": 646
+    "score": 10,
+    "cumulative": 647
   }
 ]
