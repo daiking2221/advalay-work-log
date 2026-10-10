@@ -1328,5 +1328,15 @@
     ],
     "score": 10,
     "cumulative": 647
+  },
+  {
+    "date": "2026-10-10",
+    "tasks": [
+      "スクリプト実行: 288af5",
+      "スクリプト実行: <<'E'",
+      "スクリプト実行: print(p.rect,p.mediabox,p.cropbox"
+    ],
+    "score": 2,
+    "cumulative": 649
   }
 ]
