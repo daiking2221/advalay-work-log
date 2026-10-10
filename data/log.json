@@ -1334,9 +1334,10 @@
     "tasks": [
       "スクリプト実行: 288af5",
       "スクリプト実行: <<'E'",
-      "スクリプト実行: print(p.rect,p.mediabox,p.cropbox"
+      "スクリプト実行: print(p.rect,p.mediabox,p.cropbox",
+      "スクリプト実行: <<"
     ],
-    "score": 2,
-    "cumulative": 649
+    "score": 3,
+    "cumulative": 650
   }
 ]
