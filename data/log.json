@@ -1339,7 +1339,8 @@
       "スクリプト実行: s=ope",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: s=s.r",
-      "スクリプト実行: PIL;prin"
+      "スクリプト実行: PIL;prin",
+      "ファイルを新規作成: SKILL.md"
     ],
     "score": 10,
     "cumulative": 657
