@@ -1336,9 +1336,10 @@
       "スクリプト実行: <<'E'",
       "スクリプト実行: print(p.rect,p.mediabox,p.cropbox",
       "スクリプト実行: <<",
-      "スクリプト実行: s=ope"
+      "スクリプト実行: s=ope",
+      "GitHubへファイルをプッシュ"
     ],
-    "score": 4,
-    "cumulative": 651
+    "score": 5,
+    "cumulative": 652
   }
 ]
