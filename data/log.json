@@ -1373,7 +1373,7 @@
       "スクリプト実行: s=open(f,encoding='utf-8').re",
       "スクリプト実行: s=s.replace('.fimg{position:absolute!important;left:"
     ],
-    "score": 7,
-    "cumulative": 674
+    "score": 8,
+    "cumulative": 675
   }
 ]
