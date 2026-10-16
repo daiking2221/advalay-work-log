@@ -1383,9 +1383,10 @@
       "スクリプト実行: s.count(a)==1,a",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: print(fpd",
-      "スクリプト実行: &"
+      "スクリプト実行: &",
+      "スクリプト実行: PIL;print(PIL."
     ],
-    "score": 4,
-    "cumulative": 681
+    "score": 5,
+    "cumulative": 682
   }
 ]
