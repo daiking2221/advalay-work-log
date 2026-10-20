@@ -1428,9 +1428,10 @@
       "スクリプト実行: -Users-mar",
       "スクリプト実行: ext.py",
       "スクリプト実行: <<'EO",
-      "スクリプト実行: im"
+      "スクリプト実行: im",
+      "スクリプト実行: paddle"
     ],
-    "score": 8,
-    "cumulative": 710
+    "score": 10,
+    "cumulative": 712
   }
 ]
