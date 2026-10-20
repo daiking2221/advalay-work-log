@@ -1430,7 +1430,8 @@
       "スクリプト実行: <<'EO",
       "スクリプト実行: im",
       "スクリプト実行: paddle",
-      "スクリプト実行: d=fitz.open('20261013_25階バンケットB_柱型石割"
+      "スクリプト実行: d=fitz.open('20261013_25階バンケットB_柱型石割",
+      "ファイルを新規作成: feedback_proposal-include-images.md"
     ],
     "score": 10,
     "cumulative": 712
