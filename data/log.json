@@ -1443,9 +1443,10 @@
       "スクリプト実行: python3",
       "スクリプト実行: for",
       "スクリプト実行: t=t.replace('''",
-      "スクリプト実行: auto"
+      "スクリプト実行: auto",
+      "GitHubへファイルをプッシュ"
     ],
-    "score": 4,
-    "cumulative": 716
+    "score": 6,
+    "cumulative": 718
   }
 ]
