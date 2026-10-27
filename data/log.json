@@ -1515,9 +1515,11 @@
       "スクリプト実行: wb=openpyxl.load_wo",
       "スクリプト実行: wb=openpyxl.load_workbook('ス",
       "スクリプト実行: sorted(glob.glob('",
-      "スクリプト実行: [('POP1_キックオフ告知ポスタ"
+      "スクリプト実行: [('POP1_キックオフ告知ポスタ",
+      "スクリプト実行: s=ope",
+      "スクリプト実行: [('POP3_点数早見表_卓上_A"
     ],
-    "score": 4,
-    "cumulative": 753
+    "score": 5,
+    "cumulative": 754
   }
 ]
