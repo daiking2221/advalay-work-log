@@ -1547,9 +1547,10 @@
       "GitHubへファイルをプッシュ",
       "スクリプト実行: 2026-10-30_dev-meeting",
       "スクリプト実行: f",
-      "スクリプト実行: invoi"
+      "スクリプト実行: invoi",
+      "スクリプト実行: s=open"
     ],
-    "score": 5,
-    "cumulative": 767
+    "score": 6,
+    "cumulative": 768
   }
 ]
