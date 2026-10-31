@@ -1565,9 +1565,10 @@
       "スクリプト実行: .",
       "スクリプト実行: d=json.load(",
       "ファイルを新規作成: feedback_casual-tone-shibayama-oguchi.md",
-      "ファイルを新規作成: feedback_casual-tone-shibayama-oguchi.md、btob-invoice-checklist.md"
+      "ファイルを新規作成: feedback_casual-tone-shibayama-oguchi.md、btob-invoice-checklist.md",
+      "ファイルを新規作成: feedback_casual-tone-shibayama-oguchi.md、btob-invoice-checklist.md、reference_express-btob-invoice-rules.md"
     ],
-    "score": 8,
-    "cumulative": 776
+    "score": 9,
+    "cumulative": 777
   }
 ]
