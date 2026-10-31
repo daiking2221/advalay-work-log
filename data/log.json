@@ -1552,5 +1552,16 @@
     ],
     "score": 6,
     "cumulative": 768
+  },
+  {
+    "date": "2026-10-31",
+    "tasks": [
+      "スクリプト実行: H={\"Authorization\":",
+      "スクリプト実行: tok=f._refresh_token(f._load_token());H={\"Authorizati",
+      "スクリプト実行: ignor",
+      "スクリプト実行: moneyforw"
+    ],
+    "score": 1,
+    "cumulative": 769
   }
 ]
