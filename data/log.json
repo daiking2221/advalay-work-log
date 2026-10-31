@@ -1559,9 +1559,13 @@
       "スクリプト実行: H={\"Authorization\":",
       "スクリプト実行: tok=f._refresh_token(f._load_token());H={\"Authorizati",
       "スクリプト実行: ignor",
-      "スクリプト実行: moneyforw"
+      "スクリプト実行: moneyforw",
+      "スクリプト実行: d['items']:print(",
+      "スクリプト実行: note=d['note'].replace(\"※アクセス制限（パスワード等）の",
+      "スクリプト実行: .",
+      "スクリプト実行: d=json.load("
     ],
-    "score": 1,
-    "cumulative": 769
+    "score": 4,
+    "cumulative": 772
   }
 ]
