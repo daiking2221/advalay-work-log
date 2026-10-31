@@ -1563,9 +1563,10 @@
       "スクリプト実行: d['items']:print(",
       "スクリプト実行: note=d['note'].replace(\"※アクセス制限（パスワード等）の",
       "スクリプト実行: .",
-      "スクリプト実行: d=json.load("
+      "スクリプト実行: d=json.load(",
+      "ファイルを新規作成: feedback_casual-tone-shibayama-oguchi.md"
     ],
-    "score": 5,
-    "cumulative": 773
+    "score": 7,
+    "cumulative": 775
   }
 ]
