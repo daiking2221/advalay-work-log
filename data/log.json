@@ -1597,7 +1597,8 @@
       "スクリプト実行: subprocess;print(subprocess.run(['pdftotext','-layout','2026-10-22_打合せアジェンダ_バンケッ",
       "スクリプト実行: python3",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: new='''"
+      "スクリプト実行: new='''",
+      "スクリプト実行: t="
     ],
     "score": 4,
     "cumulative": 792
