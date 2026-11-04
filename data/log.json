@@ -1612,7 +1612,8 @@
       "スクリプト実行: sl=c.get('s",
       "スクリプト実行: print(json.dumps(c['slides'][7],ensure_ascii=False,indent=1));",
       "スクリプト実行: c=json.load(open(",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "スクリプト実行: s.get('label')!='XGR"
     ],
     "score": 4,
     "cumulative": 802
