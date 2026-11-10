@@ -1675,7 +1675,8 @@
       "スクリプト実行: s=op",
       "スクリプト実行: wb=openpyx",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: q=open('quote-2026"
+      "スクリプト実行: q=open('quote-2026",
+      "スクリプト実行: wb=ope"
     ],
     "score": 9,
     "cumulative": 835
