@@ -1706,7 +1706,8 @@
   {
     "date": "2026-11-13",
     "tasks": [
-      "Claude Codeで各種業務を実施"
+      "Claude Codeで各種業務を実施",
+      "スクリプト実行: <<'EOF'"
     ],
     "score": 1,
     "cumulative": 847
