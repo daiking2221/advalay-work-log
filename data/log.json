@@ -1734,9 +1734,11 @@
       "スクリプト実行: s",
       "スクリプト実行: p=Presentation('株式会社",
       "スクリプト実行: \"",
-      "スクリプト実行: p=Presentation('株"
+      "スクリプト実行: p=Presentation('株",
+      "スクリプト実行: item",
+      "スクリプト実行: prin"
     ],
-    "score": 7,
-    "cumulative": 859
+    "score": 8,
+    "cumulative": 860
   }
 ]
