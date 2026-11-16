@@ -1731,9 +1731,12 @@
       "Claude Codeで各種業務を実施",
       "スクリプト実行: s=open(p",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: s"
+      "スクリプト実行: s",
+      "スクリプト実行: p=Presentation('株式会社",
+      "スクリプト実行: \"",
+      "スクリプト実行: p=Presentation('株"
     ],
-    "score": 5,
-    "cumulative": 857
+    "score": 7,
+    "cumulative": 859
   }
 ]
