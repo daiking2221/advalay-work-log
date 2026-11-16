@@ -1730,7 +1730,8 @@
     "tasks": [
       "Claude Codeで各種業務を実施",
       "スクリプト実行: s=open(p",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "スクリプト実行: s"
     ],
     "score": 4,
     "cumulative": 856
