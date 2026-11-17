@@ -1749,9 +1749,10 @@
       "スクリプト実行: python3",
       "スクリプト実行: wb=openpyxl.load_workbook('スコア集計表",
       "スクリプト実行: openpyxl.worksheet.datavalid",
-      "スクリプト実行: Use"
+      "スクリプト実行: Use",
+      "スクリプト実行: print(subprocess.run(['pdftotext','-layout','2026_1"
     ],
-    "score": 5,
-    "cumulative": 867
+    "score": 6,
+    "cumulative": 868
   }
 ]
