@@ -1745,7 +1745,8 @@
     "date": "2026-11-17",
     "tasks": [
       "ファイルを新規作成: project_precious-metals-portfolio.md",
-      "スクリプト実行: p='project_precious-metals"
+      "スクリプト実行: p='project_precious-metals",
+      "スクリプト実行: python3"
     ],
     "score": 4,
     "cumulative": 866
