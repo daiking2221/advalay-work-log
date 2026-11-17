@@ -1746,9 +1746,12 @@
     "tasks": [
       "ファイルを新規作成: project_precious-metals-portfolio.md",
       "スクリプト実行: p='project_precious-metals",
-      "スクリプト実行: python3"
+      "スクリプト実行: python3",
+      "スクリプト実行: wb=openpyxl.load_workbook('スコア集計表",
+      "スクリプト実行: openpyxl.worksheet.datavalid",
+      "スクリプト実行: Use"
     ],
-    "score": 4,
-    "cumulative": 866
+    "score": 5,
+    "cumulative": 867
   }
 ]
