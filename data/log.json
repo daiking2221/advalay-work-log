@@ -1759,9 +1759,15 @@
     "date": "2026-11-18",
     "tasks": [
       "スクリプト実行: json.dumps(q,e",
-      "スクリプト実行: json,request"
+      "スクリプト実行: json,request",
+      "スクリプト実行: pptx.util",
+      "スクリプト実行: python;",
+      "スクリプト実行: p=Presentation(\"株",
+      "スクリプト実行: <",
+      "スクリプト実行: python3",
+      "GitHubへファイルをプッシュ"
     ],
-    "score": 6,
-    "cumulative": 874
+    "score": 9,
+    "cumulative": 877
   }
 ]
