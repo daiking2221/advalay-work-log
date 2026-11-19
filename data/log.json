@@ -1775,9 +1775,10 @@
     "tasks": [
       "ファイルを新規作成: ai-media-prompts_v2_2026-11-19.md",
       "GitHubへファイルをプッシュ",
-      "ファイルを新規作成: ai-media-prompts_v2_2026-11-19.md、ai-image-prompts_v3_2026-11-19.md"
+      "ファイルを新規作成: ai-media-prompts_v2_2026-11-19.md、ai-image-prompts_v3_2026-11-19.md",
+      "スクリプト実行: -"
     ],
-    "score": 2,
-    "cumulative": 880
+    "score": 3,
+    "cumulative": 881
   }
 ]
