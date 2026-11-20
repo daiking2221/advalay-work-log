@@ -1786,5 +1786,13 @@
     ],
     "score": 10,
     "cumulative": 888
+  },
+  {
+    "date": "2026-11-20",
+    "tasks": [
+      "スクリプト実行: sor"
+    ],
+    "score": 2,
+    "cumulative": 890
   }
 ]
