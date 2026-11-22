@@ -1809,9 +1809,10 @@
       "スクリプト実行: s=open(f,encoding=\"utf-8\").rea",
       "GitHubへファイルをプッシュ",
       "スクリプト実行: s=",
-      "スクリプト実行: Imag"
+      "スクリプト実行: Imag",
+      "スクリプト実行: Ima"
     ],
-    "score": 9,
-    "cumulative": 907
+    "score": 10,
+    "cumulative": 908
   }
 ]
