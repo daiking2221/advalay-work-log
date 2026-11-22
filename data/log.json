@@ -1807,9 +1807,10 @@
     "tasks": [
       "スクリプト実行: <<'E'",
       "スクリプト実行: s=open(f,encoding=\"utf-8\").rea",
-      "GitHubへファイルをプッシュ"
+      "GitHubへファイルをプッシュ",
+      "スクリプト実行: s="
     ],
-    "score": 2,
-    "cumulative": 900
+    "score": 3,
+    "cumulative": 901
   }
 ]
