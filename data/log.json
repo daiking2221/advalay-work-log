@@ -1809,7 +1809,7 @@
       "スクリプト実行: s=open(f,encoding=\"utf-8\").rea",
       "GitHubへファイルをプッシュ"
     ],
-    "score": 1,
-    "cumulative": 899
+    "score": 2,
+    "cumulative": 900
   }
 ]
