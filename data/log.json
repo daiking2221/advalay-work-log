@@ -1833,9 +1833,11 @@
       "スクリプト実行: json;print(json.load(open('auth.j",
       "スクリプト実行: me",
       "GitHubへファイルをプッシュ",
-      "スクリプト実行: m=re.se"
+      "スクリプト実行: m=re.se",
+      "スクリプト実行: d=json.load(op",
+      "スクリプト実行: json;d=json.load(o"
     ],
-    "score": 7,
-    "cumulative": 916
+    "score": 8,
+    "cumulative": 917
   }
 ]
